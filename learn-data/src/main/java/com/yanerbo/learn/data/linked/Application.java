@@ -7,11 +7,11 @@ public class Application {
 
     public static void main(String[] args) {
 
-//        add(new SingleLinked());
-//        remove(new SingleLinked());
-//
-//        addRandom(new SingleLinked());
-//        removeRandom(new SingleLinked());
+        add(new SingleLinked());
+        remove(new SingleLinked());
+
+        addRandom(new SingleLinked());
+        removeRandom(new SingleLinked());
 
         add(new DoubleLinked());
         remove(new DoubleLinked());
